@@ -1,6 +1,6 @@
 {
   "name": "eyp-screen",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "eyp",
   "summary": "bucketed screen config",
   "license": "Apache-2.0",
@@ -43,7 +43,8 @@
       "operatingsystemrelease": [
         "10.04",
         "12.04",
-        "14.04"
+        "14.04",
+        "16.04"
       ]
     }
   ]
