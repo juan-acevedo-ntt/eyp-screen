@@ -1,16 +1,15 @@
 class screen::params {
 
-	case $::osfamily
-	{
+  case $::osfamily
+  {
     'redhat':
     {
       #ok
     }
-		'Debian':
-		{
-			#ok
-		}
-		default: { fail('Unsupported OS!')  }
-	}
-
+    'Debian':
+    {
+      #ok
+    }
+    default: { fail('Unsupported OS!')  }
+  }
 }
