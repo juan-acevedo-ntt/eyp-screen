@@ -1,4 +1,4 @@
-class screen ($ensure='installed') inherits screen::params {
+class screen ($ensure = 'installed') inherits screen::params {
 
   if($ensure!='installed')
   {
