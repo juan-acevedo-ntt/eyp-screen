@@ -10,6 +10,10 @@ class screen::params {
     {
       #ok
     }
+    'Suse':
+    {
+      #ok
+    }
     default: { fail('Unsupported OS!')  }
   }
 }
